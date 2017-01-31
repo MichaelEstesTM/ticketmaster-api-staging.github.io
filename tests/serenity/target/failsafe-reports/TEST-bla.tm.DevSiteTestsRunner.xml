@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bla.tm.DevSiteTestsRunner" time="1,463.786" tests="629" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/travis/build/ticketmaster-api-staging/ticketmaster-api-staging.github.io"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/local/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="/home/travis/.m2/repository"/>
+    <property name="os.version" value="4.8.12-040812-generic"/>
+    <property name="user.home" value="/home/travis"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="metafilter" value="-prod -NotImplemented"/>
+    <property name="user.name" value="travis"/>
+    <property name="java.class.path" value="/usr/local/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify -f ./tests/serenity/pom.xml -Dmetafilter=-prod -NotImplemented"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.046"/>
+  <testcase name="Given open Blogs page" classname="bla.tm.definitions.site.BlogsDefinition" time="5.314"/>
+  <testcase name="Then check general page elements for Blogs Page, where DISQUS = false and LeftMenu = false" classname="bla.tm.definitions.site.BlogsDefinition" time="40.404"/>
+  <testcase name="Scenario: |/blogs/| Verification for general page&apos;s elements" classname="Scenario: |/blogs/| Verification for general page&apos;s elements" time="40.463"/>
+  <testcase name="Blogs.story" classname="Blogs.story" time="40.632"/>
+  <testcase name="Given open Events page" classname="bla.tm.definitions.site.EventsDefinition" time="4.01"/>
+  <testcase name="Then check general page elements for Events Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.EventsDefinition" time="10.329"/>
+  <testcase name="Scenario: |/events/| Verification for general page&apos;s elements" classname="Scenario: |/events/| Verification for general page&apos;s elements" time="10.366"/>
+  <testcase name="Events.story" classname="Events.story" time="10.438"/>
+  <testcase name="Given open Home page" classname="bla.tm.definitions.site.HomePageDefinition" time="4.635"/>
+  <testcase name="Then check general page elements for Home Page, where DISQUS = false and LeftMenu = false" classname="bla.tm.definitions.site.HomePageDefinition" time="20.452"/>
+  <testcase name="Scenario: |/Home Page/| Verification for general page elements" classname="Scenario: |/Home Page/| Verification for general page elements" time="20.484"/>
+  <testcase name="Given open Home page​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.818"/>
+  <testcase name="Then check that Twitter&apos;s list of events is shown" classname="bla.tm.definitions.site.HomePageDefinition" time="0.16"/>
+  <testcase name="Scenario: |/Home Page/| Verification for twitter&apos;s list of events" classname="Scenario: |/Home Page/| Verification for twitter&apos;s list of events" time="0.219"/>
+  <testcase name="Given open Home page​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.896"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page" classname="bla.tm.definitions.site.HomePageDefinition" time="0.582"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;" classname="bla.tm.definitions.site.HomePageDefinition" time="1.142"/>
+  <testcase name="Given open Home page​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.955"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.277"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.303"/>
+  <testcase name="Given open Home page​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="5"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.259"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.044"/>
+  <testcase name="Given open Home page​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.14"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.211"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.578"/>
+  <testcase name="Given open Home page​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.2"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.393"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.17"/>
+  <testcase name="Given open Home page​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.393"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.551"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.215"/>
+  <testcase name="Given open Home page​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.087"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.277"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.189"/>
+  <testcase name="Given open Home page​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.38"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.776"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.049"/>
+  <testcase name="Given open Home page​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.08"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.289"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.615"/>
+  <testcase name="Given open Home page​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="4.105"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.238"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.518"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.312"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.297"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.974"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.654"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.972"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;elementLocation&gt;​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.037"/>
+  <testcase name="Scenario: |/Home Page/| Verification for all the page links" classname="Scenario: |/Home Page/| Verification for all the page links" time="0.107"/>
+  <testcase name="Home.story" classname="Home.story" time="0.11"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.958"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Home page​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.378"/>
+  <testcase name="Then check that new page opened from Home page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.HomePageDefinition" time="0.025"/>
+  <testcase name="Scenario: |/blogs/| Verification for general page&apos;s elements​" classname="Scenario: |/blogs/| Verification for general page&apos;s elements​" time="0.092"/>
+  <testcase name="OpenSource.story" classname="OpenSource.story" time="0.093"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.517"/>
+  <testcase name="And insert Search Parameter &lt;searchRequest&gt; and navigate to Search page" classname="bla.tm.definitions.site.SearchDefinition" time="0.276"/>
+  <testcase name="Then check general page elements for Search Page, where DISQUS = false and LeftMenu = false" classname="bla.tm.definitions.site.SearchDefinition" time="22.145"/>
+  <testcase name="Scenario: |/search/| Verification for general page&apos;s elements" classname="Scenario: |/search/| Verification for general page&apos;s elements" time="22.214"/>
+  <testcase name="Search.story" classname="Search.story" time="22.216"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.761"/>
+  <testcase name="When navigate to Pantheon LogIn page from Home page" classname="bla.tm.definitions.site.HomePageDefinition" time="1.109"/>
+  <testcase name="When navigate to Pantheon Create New Account page from LogIn page" classname="bla.tm.definitions.site.pantheon.UserLogInDefinition" time="1.058"/>
+  <testcase name="Then check general page elements for Pantheon Create New Account page" classname="bla.tm.definitions.site.pantheon.CreateNewAccountDefinition" time="20.42"/>
+  <testcase name="Scenario: |developer-acct.ticketmaster.com/user/register| Verification for general page&apos;s elements" classname="Scenario: |developer-acct.ticketmaster.com/user/register| Verification for general page&apos;s elements" time="20.451"/>
+  <testcase name="CreateNewAccount.story" classname="CreateNewAccount.story" time="20.531"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.816"/>
+  <testcase name="When navigate to Pantheon LogIn page from Home page​" classname="bla.tm.definitions.site.HomePageDefinition" time="0.995"/>
+  <testcase name="When navigate to Pantheon User Account page from LogIn page" classname="bla.tm.definitions.site.pantheon.UserLogInDefinition" time="4.836"/>
+  <testcase name="When navigate to Pantheon Edit Profile page from User Account page" classname="bla.tm.definitions.site.pantheon.UserAccountDefinition" time="3.199"/>
+  <testcase name="Then check general page elements for Pantheon Edit Profile page" classname="bla.tm.definitions.site.pantheon.EditProfileDefinition" time="20.338"/>
+  <testcase name="Scenario: |developer-acct.ticketmaster.com/user/1554/edit| Verification for general page&apos;s elements" classname="Scenario: |developer-acct.ticketmaster.com/user/1554/edit| Verification for general page&apos;s elements" time="20.368"/>
+  <testcase name="EditProfile.story" classname="EditProfile.story" time="20.438"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="3.702"/>
+  <testcase name="When navigate to Pantheon LogIn page from Home page​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.043"/>
+  <testcase name="When navigate to Pantheon Request New Password page from LogIn page" classname="bla.tm.definitions.site.pantheon.UserLogInDefinition" time="0.659"/>
+  <testcase name="Then check general page elements for Pantheon Request New Password page" classname="bla.tm.definitions.site.pantheon.RequestNewPasswordDefinition" time="20.359"/>
+  <testcase name="Scenario: |developer-acct.ticketmaster.com/user/password| Verification for general page&apos;s elements" classname="Scenario: |developer-acct.ticketmaster.com/user/password| Verification for general page&apos;s elements" time="20.395"/>
+  <testcase name="RequestNewPassword.story" classname="RequestNewPassword.story" time="20.473"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.703"/>
+  <testcase name="When navigate to Pantheon LogIn page from Home page​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.287"/>
+  <testcase name="When navigate to Pantheon User Account page from LogIn page​" classname="bla.tm.definitions.site.pantheon.UserLogInDefinition" time="3.559"/>
+  <testcase name="Then check general page elements for Pantheon User Account page" classname="bla.tm.definitions.site.pantheon.UserAccountDefinition" time="20.249"/>
+  <testcase name="Scenario: |developer-acct.ticketmaster.com/user/1554/apps| Verification for general page&apos;s elements [Login - Password field - enter valid password]" classname="Scenario: |developer-acct.ticketmaster.com/user/1554/apps| Verification for general page&apos;s elements [Login - Password field - enter valid password]" time="20.301"/>
+  <testcase name="UserAccount.story" classname="UserAccount.story" time="20.385"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="4.168"/>
+  <testcase name="When navigate to Pantheon LogIn page from Home page​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="1.313"/>
+  <testcase name="Then check general page elements for Pantheon User LonIn page" classname="bla.tm.definitions.site.pantheon.UserLogInDefinition" time="20.244"/>
+  <testcase name="Scenario: |developer-acct.ticketmaster.com/user/login| Verification for general page&apos;s elements" classname="Scenario: |developer-acct.ticketmaster.com/user/login| Verification for general page&apos;s elements" time="20.266"/>
+  <testcase name="UserLogIn.story" classname="UserLogIn.story" time="20.343"/>
+  <testcase name="Given open Partners page" classname="bla.tm.definitions.site.partners.PartnersDefinition" time="6.348"/>
+  <testcase name="Then check general page elements for Partners Page, where DISQUS = false and LeftMenu = false" classname="bla.tm.definitions.site.partners.PartnersDefinition" time="20.276"/>
+  <testcase name="Scenario: |/partners/| Verification for general page&apos;s elements" classname="Scenario: |/partners/| Verification for general page&apos;s elements" time="20.304"/>
+  <testcase name="Partners.story" classname="Partners.story" time="20.371"/>
+  <testcase name="Given open Certified Partners page" classname="bla.tm.definitions.site.partners.Partners_CertifiedPartnersDefinition" time="2.803"/>
+  <testcase name="Then check general page elements for Certified Partners Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.partners.Partners_CertifiedPartnersDefinition" time="10.231"/>
+  <testcase name="Scenario: |/partners/certified-partners/| Verification for general page&apos;s elements" classname="Scenario: |/partners/certified-partners/| Verification for general page&apos;s elements" time="10.261"/>
+  <testcase name="Partners_CertifiedPartners.story" classname="Partners_CertifiedPartners.story" time="10.324"/>
+  <testcase name="Given open Distribution Partners page" classname="bla.tm.definitions.site.partners.Partners_DistributionPartnersDefinition" time="4.216"/>
+  <testcase name="Then check general page elements for Distribution Partners Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.partners.Partners_DistributionPartnersDefinition" time="0.57"/>
+  <testcase name="Scenario: |/partners/distribution-partners/| Verification for general page&apos;s elements" classname="Scenario: |/partners/distribution-partners/| Verification for general page&apos;s elements" time="0.597"/>
+  <testcase name="Partners_DistributionPartners.story" classname="Partners_DistributionPartners.story" time="0.673"/>
+  <testcase name="Given open Join The Nexus Program page" classname="bla.tm.definitions.site.partners.Partners_NexusDefinition" time="3.617"/>
+  <testcase name="Then check general page elements for Join The Nexus Program Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.partners.Partners_NexusDefinition" time="0.173"/>
+  <testcase name="Scenario: |/partners/certified-partners/nexus/| Verification for general page&apos;s elements" classname="Scenario: |/partners/certified-partners/nexus/| Verification for general page&apos;s elements" time="0.197"/>
+  <testcase name="Partners_Nexus.story" classname="Partners_Nexus.story" time="0.26"/>
+  <testcase name="Given open Startups and Developers page" classname="bla.tm.definitions.site.partners.Partners_StartupsDevelopersDefinition" time="5.171"/>
+  <testcase name="Then check general page elements for Startups and Developers Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.partners.Partners_StartupsDevelopersDefinition" time="0.209"/>
+  <testcase name="Scenario: |/partners/startups-and-developers/| Verification for general page&apos;s elements" classname="Scenario: |/partners/startups-and-developers/| Verification for general page&apos;s elements" time="0.234"/>
+  <testcase name="Partners_StartupsDevelopers.story" classname="Partners_StartupsDevelopers.story" time="0.3"/>
+  <testcase name="Given open Products and Docs page" classname="bla.tm.definitions.site.products_and_docs.PD_Definition" time="2.4"/>
+  <testcase name="Then check general page elements for Products and Docs Page, where DISQUS = false and LeftMenu = false" classname="bla.tm.definitions.site.products_and_docs.PD_Definition" time="40.52"/>
+  <testcase name="Scenario: |/support/| Verification for general page&apos;s elements" classname="Scenario: |/support/| Verification for general page&apos;s elements" time="40.545"/>
+  <testcase name="PD.story" classname="PD.story" time="40.609"/>
+  <testcase name="Given open API Explorer page" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerDefinition" time="2.735"/>
+  <testcase name="Then check general page elements for API Explorer Page, where DISQUS = true and LeftMenu = false" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerDefinition" time="10.887"/>
+  <testcase name="Scenario: |/api-explorer/| Verification for general page&apos;s elements" classname="Scenario: |/api-explorer/| Verification for general page&apos;s elements" time="10.916"/>
+  <testcase name="PD_APIExplorer.story" classname="PD_APIExplorer.story" time="10.98"/>
+  <testcase name="Given open API Explorer V2 page" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerV2Definition" time="4.252"/>
+  <testcase name="Then check general page elements for API Explorer V2 Page, where DISQUS = true and LeftMenu = false" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerV2Definition" time="10.99"/>
+  <testcase name="Scenario: |/api-explorer/v2| Verification for general page&apos;s elements" classname="Scenario: |/api-explorer/v2| Verification for general page&apos;s elements" time="11.041"/>
+  <testcase name="PD_APIExplorer_V2.story" classname="PD_APIExplorer_V2.story" time="11.12"/>
+  <testcase name="Given open ChangeLog page" classname="bla.tm.definitions.site.products_and_docs.PD_ChangeLogDefinition" time="3.254"/>
+  <testcase name="Then check general page elements for ChangeLog Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_ChangeLogDefinition" time="0.585"/>
+  <testcase name="Scenario: |/products-and-docs/apis/changelog/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/changelog/| Verification for general page&apos;s elements" time="0.634"/>
+  <testcase name="PD_ChangeLog.story" classname="PD_ChangeLog.story" time="0.706"/>
+  <testcase name="Given open Commerce API page" classname="bla.tm.definitions.site.products_and_docs.PD_ComerceAPIDefinition" time="5.994"/>
+  <testcase name="Then check general page elements for Commerce API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_ComerceAPIDefinition" time="1.194"/>
+  <testcase name="Scenario: |/products-and-docs/apis/commerce/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/commerce/| Verification for general page&apos;s elements" time="1.233"/>
+  <testcase name="PD_CommerceAPI.story" classname="PD_CommerceAPI.story" time="1.301"/>
+  <testcase name="Given open Deals API page" classname="bla.tm.definitions.site.products_and_docs.PD_DealsAPIDefinition" time="4.095"/>
+  <testcase name="Then check general page elements for Deals API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_DealsAPIDefinition" time="0.437"/>
+  <testcase name="Scenario: |/products-and-docs/apis/deals-api/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/deals-api/| Verification for general page&apos;s elements" time="0.506"/>
+  <testcase name="PD_DealsAPI.story" classname="PD_DealsAPI.story" time="0.574"/>
+  <testcase name="Given open Discovery API v1 page" classname="bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition" time="3.027"/>
+  <testcase name="Then check general page elements for Discovery API v1 Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition" time="0.73">
+    <failure message="expected:&lt;[PAGE NOT FOUND]&gt; but was:&lt;[DISCOVERY API]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[PAGE NOT FOUND]> but was:<[DISCOVERY API]>
+	at bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+]]></failure>
+    <system-out><![CDATA[Given open Discovery API v1 page
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: |/products-and-docs/apis/discovery/v1/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/discovery/v1/| Verification for general page&apos;s elements" time="0.74">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+</failure>
+    <system-out><![CDATA[Then check general page elements for Discovery API v1 Page, where DISQUS = true and LeftMenu = true (FAILED)
+(org.junit.ComparisonFailure: expected:<[PAGE NOT FOUND]> but was:<[DISCOVERY API]>)
+]]></system-out>
+  </testcase>
+  <testcase name="PD_DiscoveryAPIV1.story" classname="PD_DiscoveryAPIV1.story" time="0.922">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+</failure>
+    <system-out><![CDATA[
+org.junit.ComparisonFailure: expected:<[PAGE NOT FOUND]> but was:<[DISCOVERY API]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps.checkIfTitleIsCorrect(PD_DiscoveryAPIv1Steps.java:25)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$4341d764.CGLIB$checkIfTitleIsCorrect$2(<generated>)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$4341d764$$FastClassByCGLIB$$74b4e4e7.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at bla.tm.steps.products_and_docs.PD_DiscoveryAPIv1Steps$$EnhancerByCGLIB$$4341d764.checkIfTitleIsCorrect(<generated>)
+	at bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: (/products-and-docs/apis/discovery/v1/) Verification for general page's elements
+--------------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Check if title is correct
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - expected:<[PAGE NOT FOUND]> but was:<[DISCOVERY API]>
+]]></system-err>
+  </testcase>
+  <testcase name="Given open Discovery API v2 page" classname="bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv2Definition" time="8.437"/>
+  <testcase name="Then check general page elements for Discovery API v2 Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv2Definition" time="2.451"/>
+  <testcase name="Scenario: |/products-and-docs/apis/discovery/v2/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/discovery/v2/| Verification for general page&apos;s elements" time="2.619"/>
+  <testcase name="PD_DiscoveryAPIV2.story" classname="PD_DiscoveryAPIV2.story" time="2.706"/>
+  <testcase name="Given open Commerce API page​" classname="bla.tm.definitions.site.products_and_docs.PD_ComerceAPIDefinition" time="6.092"/>
+  <testcase name="When Commerce API menu has list of methods" classname="bla.tm.definitions.site.products_and_docs.PD_ComerceAPIDefinition" time="128.063"/>
+  <testcase name="And open Getting Started page" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="1.527"/>
+  <testcase name="Then all the Commerce API methods are shown on Getting Started page" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="56.023"/>
+  <testcase name="Scenario: |/products-and-docs/apis/getting-started/| TKMDPA-874 Commerce API links in Available Resources table" classname="Scenario: |/products-and-docs/apis/getting-started/| TKMDPA-874 Commerce API links in Available Resources table" time="56.358"/>
+  <testcase name="Given open Getting Started page" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="2.952"/>
+  <testcase name="Then check general page elements for Getting Started Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="0.811"/>
+  <testcase name="Scenario: |/products-and-docs/apis/getting-started/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/getting-started/| Verification for general page&apos;s elements" time="0.85"/>
+  <testcase name="PD_GettingStarted.story" classname="PD_GettingStarted.story" time="0.917"/>
+  <testcase name="Given open International Discovery API page" classname="bla.tm.definitions.site.products_and_docs.PD_InternationalDiscoveryAPIDefinition" time="6.468"/>
+  <testcase name="Then check general page elements for International Discovery API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_InternationalDiscoveryAPIDefinition" time="1.199"/>
+  <testcase name="Scenario: |/products-and-docs/apis/international-discovery/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/international-discovery/| Verification for general page&apos;s elements" time="1.226"/>
+  <testcase name="PD_InternationalDiscoveryAPI.story" classname="PD_InternationalDiscoveryAPI.story" time="1.291"/>
+  <testcase name="Given open Inventory Status API page" classname="bla.tm.definitions.site.products_and_docs.PD_InventoryStatusAPIDefinition" time="3.73"/>
+  <testcase name="Then check general page elements for Inventory Status API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_InventoryStatusAPIDefinition" time="0.405"/>
+  <testcase name="Scenario: |/products-and-docs/apis/inventory-status/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/inventory-status/| Verification for general page&apos;s elements" time="0.459"/>
+  <testcase name="PD_InventoryStatusAPI.story" classname="PD_InventoryStatusAPI.story" time="0.522"/>
+  <testcase name="Given open Oauth API page" classname="bla.tm.definitions.site.products_and_docs.PD_OauthAPIDefinition" time="5.163"/>
+  <testcase name="Then check general page elements for Oauth API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_OauthAPIDefinition" time="0.485"/>
+  <testcase name="Scenario: |/products-and-docs/apis/oauth/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/oauth/| Verification for general page&apos;s elements" time="0.547"/>
+  <testcase name="PD_OauthAPI.story" classname="PD_OauthAPI.story" time="0.61"/>
+  <testcase name="Given open Partner API page" classname="bla.tm.definitions.site.products_and_docs.PD_PartnerAPIDefinition" time="4.818"/>
+  <testcase name="Then check general page elements for Partner API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_PartnerAPIDefinition" time="0.599"/>
+  <testcase name="Scenario: |/products-and-docs/apis/partner/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/partner/| Verification for general page&apos;s elements" time="0.633"/>
+  <testcase name="PD_PartnerAPI.story" classname="PD_PartnerAPI.story" time="0.7"/>
+  <testcase name="Given open Publish API page" classname="bla.tm.definitions.site.products_and_docs.PD_PublishAPIDefinition" time="3.672"/>
+  <testcase name="Then check general page elements for Publish API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_PublishAPIDefinition" time="0.554"/>
+  <testcase name="Scenario: |/products-and-docs/apis/publish/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/apis/publish/| Verification for general page&apos;s elements" time="0.626"/>
+  <testcase name="PD_PublishAPI.story" classname="PD_PublishAPI.story" time="0.696"/>
+  <testcase name="Given open SDKs page" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="2.801"/>
+  <testcase name="Then check general page elements for SDKs Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="0.577"/>
+  <testcase name="Scenario: |/products-and-docs/sdks/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/sdks/| Verification for general page&apos;s elements" time="0.602"/>
+  <testcase name="Given open SDKs page​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="3.274"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of SDKs page" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.227"/>
+  <testcase name="Then check that new page opened from SDKs page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.545"/>
+  <testcase name="Given open SDKs page​​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="3.214"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of SDKs page​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.048"/>
+  <testcase name="Then check that new page opened from SDKs page has &lt;pageURL&gt; and &lt;pageTitle&gt;​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.099"/>
+  <testcase name="Given open SDKs page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="4.668"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of SDKs page​​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.21"/>
+  <testcase name="Then check that new page opened from SDKs page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​" classname="bla.tm.definitions.site.products_and_docs.PD_SDKsDefinition" time="1.52"/>
+  <testcase name="Scenario: |products-and-docs/sdks/| Verification for all the page&apos;s links" classname="Scenario: |products-and-docs/sdks/| Verification for all the page&apos;s links" time="1.587"/>
+  <testcase name="PD_SDKs.story" classname="PD_SDKs.story" time="1.588"/>
+  <testcase name="Given open Season Ticketing API page" classname="bla.tm.definitions.site.products_and_docs.PD_SeasonTicketingAPIDefinition" time="5.113"/>
+  <testcase name="Then check general page elements for Season Ticketing API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_SeasonTicketingAPIDefinition" time="0.311"/>
+  <testcase name="Scenario: |/api-explorer/| Verification for general page&apos;s elements​" classname="Scenario: |/api-explorer/| Verification for general page&apos;s elements​" time="0.356"/>
+  <testcase name="PD_SeasonTicketingAPI.story" classname="PD_SeasonTicketingAPI.story" time="0.43"/>
+  <testcase name="Given open Top Picks API page" classname="bla.tm.definitions.site.products_and_docs.PD_TopPicksAPIDefinition" time="4.663"/>
+  <testcase name="Then check general page elements for Top Picks API Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_TopPicksAPIDefinition" time="0.448"/>
+  <testcase name="Scenario: |/api-explorer/| Verification for general page&apos;s elements​​" classname="Scenario: |/api-explorer/| Verification for general page&apos;s elements​​" time="0.505"/>
+  <testcase name="PD_TopPicksAPI.story" classname="PD_TopPicksAPI.story" time="0.573"/>
+  <testcase name="Given open Tutorials page" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3"/>
+  <testcase name="Then check general page elements for Tutorials Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="10.181"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/| Verification for general page&apos;s elements" time="10.208"/>
+  <testcase name="Given open Tutorials page​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="1.998"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="1.896"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.121"/>
+  <testcase name="Given open Tutorials page​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="2.021"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.453"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.032"/>
+  <testcase name="Given open Tutorials page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.038"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="4.017"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.047"/>
+  <testcase name="Given open Tutorials page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.479"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.092"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.453"/>
+  <testcase name="Given open Tutorials page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="4.085"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="1.642"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.465"/>
+  <testcase name="Given open Tutorials page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="2.219"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.747"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.191"/>
+  <testcase name="Given open Tutorials page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="1.832"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="1.715"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.601"/>
+  <testcase name="Given open Tutorials page​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="2.589"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="2.03"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.58"/>
+  <testcase name="Given open Tutorials page​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="3.498"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials page​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="0.749"/>
+  <testcase name="Then check that new page opened from Tutorials page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_TutorialsDefinition" time="2.222"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/| Verification for all the page&apos;s links" classname="Scenario: |/products-and-docs/tutorials/| Verification for all the page&apos;s links" time="2.3"/>
+  <testcase name="PD_Tutorials.story" classname="PD_Tutorials.story" time="2.302"/>
+  <testcase name="Given open Tutorials EventSearch page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="4.529"/>
+  <testcase name="Then check general page elements for Tutorials EventSearch Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="10.296"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/events-search/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/events-search/| Verification for general page&apos;s elements" time="10.33"/>
+  <testcase name="Given open Tutorials EventSearch page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="1.969"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.723"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.916"/>
+  <testcase name="Given open Tutorials EventSearch page​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.938"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.034"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.169"/>
+  <testcase name="Given open Tutorials EventSearch page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.091"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.028"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.286"/>
+  <testcase name="Given open Tutorials EventSearch page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.216"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.737"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="3.143"/>
+  <testcase name="Given open Tutorials EventSearch page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.727"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="4.35"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.042"/>
+  <testcase name="Given open Tutorials EventSearch page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="4.008"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials EventSearch page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="2.615"/>
+  <testcase name="Then check that new page opened from Tutorials EventSearch page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearchDefinition" time="0.125"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/events-search/| Verification for all the page&apos;s links" classname="Scenario: |/products-and-docs/tutorials/events-search/| Verification for all the page&apos;s links" time="0.188"/>
+  <testcase name="PD_Tutorials_EventSearch.story" classname="PD_Tutorials_EventSearch.story" time="0.189"/>
+  <testcase name="Given open Tutorials EventSearch SearchEventInSomeLocation page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearch_SearchEventInSomeLocationDefinition" time="3.595"/>
+  <testcase name="Then check general page elements for Tutorials EventSearch SearchEventInSomeLocation Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearch_SearchEventInSomeLocationDefinition" time="0.588"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/events-search/search_events_in_location_html| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/events-search/search_events_in_location_html| Verification for general page&apos;s elements" time="0.613"/>
+  <testcase name="PD_Tutorials_EventSearch_SearchEventInSomeLocation.story" classname="PD_Tutorials_EventSearch_SearchEventInSomeLocation.story" time="0.695"/>
+  <testcase name="Given open Tutorials EventSearch SearchEventWithDiscoveryAPI page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearch_SearchEventWithDiscoveryAPIDefinition" time="3.566"/>
+  <testcase name="Then check general page elements for Tutorials EventSearch SearchEventWithDiscoveryAPI Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_EventSearch_SearchEventWithDiscoveryAPIDefinition" time="0.574"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/events-search/search_events_with_discovery_api_html| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/events-search/search_events_with_discovery_api_html| Verification for general page&apos;s elements" time="0.604"/>
+  <testcase name="PD_Tutorials_EventSearch_SearchEventWithDiscoveryAPI.story" classname="PD_Tutorials_EventSearch_SearchEventWithDiscoveryAPI.story" time="0.678"/>
+  <testcase name="Given open Tutorials Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="1.955"/>
+  <testcase name="Then check general page elements for Tutorials Widgets Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="10.211"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/widgets/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/widgets/| Verification for general page&apos;s elements" time="10.243"/>
+  <testcase name="Given open Tutorials Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="3.772"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="2.574"/>
+  <testcase name="Then check that new page opened from Tutorials Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.033"/>
+  <testcase name="Given open Tutorials Widgets page​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="5.882"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="1.784"/>
+  <testcase name="Then check that new page opened from Tutorials Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.113"/>
+  <testcase name="Given open Tutorials Widgets page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="2.63"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Tutorials Widgets page​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.27"/>
+  <testcase name="Then check that new page opened from Tutorials Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="1.616"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/widgets/| Verification for all the page&apos;s links" classname="Scenario: |/products-and-docs/tutorials/widgets/| Verification for all the page&apos;s links" time="1.688"/>
+  <testcase name="PD_Tutorials_Widgets.story" classname="PD_Tutorials_Widgets.story" time="1.69"/>
+  <testcase name="Given open Tutorials Widgets EventDiscoveryWidget page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_Widgets_EventDiscoveryWidgetDefinition" time="4.289"/>
+  <testcase name="Then check general page elements for Tutorials Widgets EventDiscoveryWidget Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_Widgets_EventDiscoveryWidgetDefinition" time="0.897"/>
+  <testcase name="Scenario: |/products-and-docs/tutorials/widgets/Event_Discovery_Widget_html| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/tutorials/widgets/Event_Discovery_Widget_html| Verification for general page&apos;s elements" time="0.926"/>
+  <testcase name="PD_Tutorials_Widgets_EventDiscoveryWidget.story" classname="PD_Tutorials_Widgets_EventDiscoveryWidget.story" time="1"/>
+  <testcase name="Given open Calendar Widget page" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="5.66"/>
+  <testcase name="Then check general page elements for Calendar Widget Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="0.836"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/calendar/| Verification for general page&apos;s elements" time="0.87"/>
+  <testcase name="PD_Widget_Calendar.story" classname="PD_Widget_Calendar.story" time="0.935"/>
+  <testcase name="Given open Countdown Widget page" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.976"/>
+  <testcase name="Then check general page elements for Countdown Widget Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="0.473"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/countdown/| Verification for general page&apos;s elements" time="0.504"/>
+  <testcase name="PD_Widget_Countdown.story" classname="PD_Widget_Countdown.story" time="0.568"/>
+  <testcase name="Given open Event Discovery Widget page" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.428"/>
+  <testcase name="Then check general page elements for Event Discovery Widget Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="0.601"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/event-discovery/| Verification for general page&apos;s elements" time="0.622"/>
+  <testcase name="PD_Widget_EventDiscovery.story" classname="PD_Widget_EventDiscovery.story" time="0.688"/>
+  <testcase name="Given open Universal Checkout page" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_UniversalCheckoutDefinition" time="3.572"/>
+  <testcase name="Then check general page elements for Universal Checkout Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_UniversalCheckoutDefinition" time="0.532"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/checkout/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/checkout/| Verification for general page&apos;s elements" time="0.56"/>
+  <testcase name="PD_Widget_UniversalCheckout.story" classname="PD_Widget_UniversalCheckout.story" time="0.626"/>
+  <testcase name="Given open WordPress Widget page" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_WordPressDefinition" time="5.325"/>
+  <testcase name="Then check general page elements for WordPress Widget Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_WordPressDefinition" time="0.174"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/wordpress/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/wordpress/| Verification for general page&apos;s elements" time="0.192"/>
+  <testcase name="PD_Widget_WordPress.story" classname="PD_Widget_WordPress.story" time="0.254"/>
+  <testcase name="Given open Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="2.789"/>
+  <testcase name="Then check general page elements for Widgets Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="10.207"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/| Verification for general page&apos;s elements" classname="Scenario: |/products-and-docs/widgets/| Verification for general page&apos;s elements" time="10.232"/>
+  <testcase name="Given open Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="1.801"/>
+  <testcase name="When check visibility and click DirectPaymentButton element of Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.791"/>
+  <testcase name="Then check that new page opened from Direct Payment Button has has appropriate url" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.748"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/| Verification for Direct Payment Button element" classname="Scenario: |/products-and-docs/widgets/| Verification for Direct Payment Button element" time="0.768"/>
+  <testcase name="Given open Widgets page​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="3.037"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.734"/>
+  <testcase name="Then check that new page opened from Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="2.04"/>
+  <testcase name="Given open Widgets page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="3.708"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="12.265"/>
+  <testcase name="Then check that new page opened from Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.034"/>
+  <testcase name="Given open Widgets page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="2.638"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Widgets page​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="1.825"/>
+  <testcase name="Then check that new page opened from Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.431"/>
+  <testcase name="Given open Widgets page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="2.031"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Widgets page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="3.096"/>
+  <testcase name="Then check that new page opened from Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.462"/>
+  <testcase name="Given open Widgets page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="1.871"/>
+  <testcase name="When check visibility and click &lt;elementKey&gt; element of Widgets page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="1.429"/>
+  <testcase name="Then check that new page opened from Widgets page has &lt;pageURL&gt; and &lt;pageTitle&gt;​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_WidgetsDefinition" time="0.612"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/| Verification for all the page&apos;s links" classname="Scenario: |/products-and-docs/widgets/| Verification for all the page&apos;s links" time="0.726"/>
+  <testcase name="PD_Widgets.story" classname="PD_Widgets.story" time="0.727"/>
+  <testcase name="Given open Support page" classname="bla.tm.definitions.site.support.SupportDefinition" time="2.696"/>
+  <testcase name="Then check general page elements for Support Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.support.SupportDefinition" time="0.363"/>
+  <testcase name="Scenario: |/support/| Verification for general page&apos;s elements​" classname="Scenario: |/support/| Verification for general page&apos;s elements​" time="0.384"/>
+  <testcase name="Support.story" classname="Support.story" time="0.446"/>
+  <testcase name="Given open Branding Guide page" classname="bla.tm.definitions.site.support.Support_BrandingGuideDefinition" time="4.912"/>
+  <testcase name="Then check general page elements for Branding Guide Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.support.Support_BrandingGuideDefinition" time="0.221"/>
+  <testcase name="Scenario: |/support/branding-guide/| Verification for general page&apos;s elements" classname="Scenario: |/support/branding-guide/| Verification for general page&apos;s elements" time="0.25"/>
+  <testcase name="Support_BrandingGuide.story" classname="Support_BrandingGuide.story" time="0.314"/>
+  <testcase name="Given open Contact Us page" classname="bla.tm.definitions.site.support.Support_ContactUsDefinition" time="4.418"/>
+  <testcase name="Then check general page elements for Contact Us Page, where DISQUS = false and LeftMenu = true" classname="bla.tm.definitions.site.support.Support_ContactUsDefinition" time="10.224"/>
+  <testcase name="Scenario: |/support/contact-us/| Verification for general page&apos;s elements" classname="Scenario: |/support/contact-us/| Verification for general page&apos;s elements" time="10.256"/>
+  <testcase name="Support_ContactUs.story" classname="Support_ContactUs.story" time="10.322"/>
+  <testcase name="Given open FAQ page" classname="bla.tm.definitions.site.support.Support_FAQDefinition" time="3.526"/>
+  <testcase name="Then check general page elements for FAQ Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.support.Support_FAQDefinition" time="0.669"/>
+  <testcase name="Scenario: |/support/faq/| Verification for general page&apos;s elements" classname="Scenario: |/support/faq/| Verification for general page&apos;s elements" time="0.698"/>
+  <testcase name="Support_FAQ.story" classname="Support_FAQ.story" time="0.769"/>
+  <testcase name="Given open General Terms Of Use page" classname="bla.tm.definitions.site.support.Support_GeneralTermsOfUseDefinition" time="3.985"/>
+  <testcase name="Then check general page elements for General Terms Of Use Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.support.Support_GeneralTermsOfUseDefinition" time="0.351"/>
+  <testcase name="Scenario: |/support/terms-of-use/| Verification for general page&apos;s elements" classname="Scenario: |/support/terms-of-use/| Verification for general page&apos;s elements" time="0.446"/>
+  <testcase name="Support_GeneralTermsOfUse.story" classname="Support_GeneralTermsOfUse.story" time="0.509"/>
+  <testcase name="Given open Partner API Terms Of Use page" classname="bla.tm.definitions.site.support.Support_PartnerAPITermsOfUseDefinition" time="2.876"/>
+  <testcase name="Then check general page elements for Partner API Terms Of Use Page, where DISQUS = true and LeftMenu = true" classname="bla.tm.definitions.site.support.Support_PartnerAPITermsOfUseDefinition" time="0.391"/>
+  <testcase name="Scenario: |/support/terms-of-use/partner/| Verification for general page&apos;s elements" classname="Scenario: |/support/terms-of-use/partner/| Verification for general page&apos;s elements" time="0.494"/>
+  <testcase name="Support_PartnerAPITermsOfUse.story" classname="Support_PartnerAPITermsOfUse.story" time="0.562"/>
+  <testcase name="Given open Calendar Widget page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="3.068"/>
+  <testcase name="Then the required fields are not empty on the Calendar Widget page" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.258"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that required fields are not empty" classname="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that required fields are not empty" time="0.285"/>
+  <testcase name="Given open Calendar Widget page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="4.514"/>
+  <testcase name="And change values for: apiKey,keyword,zipCode,radius" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="4.722"/>
+  <testcase name="And store values of: apiKey,keyword,zipCode,radius" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.311"/>
+  <testcase name="When click on &quot;Get code&quot; button" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.799"/>
+  <testcase name="Then the pop-up Embedded Code is opened" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.851"/>
+  <testcase name="And embedded html code contains stored values of: apiKey,keyword,zipCode,radius" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.292"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that embed code functionality works properly" classname="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that embed code functionality works properly" time="0.315"/>
+  <testcase name="Given open Calendar Widget page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="3.632"/>
+  <testcase name="When change value of Zip Code &lt;zipCode&gt;" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="2.21"/>
+  <testcase name="Then the Country field contains appropriate value &lt;countryName&gt;" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.093"/>
+  <testcase name="Given open Calendar Widget page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="3.768"/>
+  <testcase name="When change value of Zip Code &lt;zipCode&gt;​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="1.86"/>
+  <testcase name="Then the Country field contains appropriate value &lt;countryName&gt;​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.071"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that Country field is changed accordingly Zip Code" classname="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check that Country field is changed accordingly Zip Code" time="0.133"/>
+  <testcase name="Given open Calendar Widget page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="6.146"/>
+  <testcase name="And store values of: apiKey,keyword,zipCode,radius​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.691"/>
+  <testcase name="And change values for: apiKey,keyword,zipCode,radius​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="3.038"/>
+  <testcase name="When click reset button" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.902"/>
+  <testcase name="Then values of fields: apiKey,keyword,zipCode,radius equals stored values" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.176"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check RESET button functionality" classname="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check RESET button functionality" time="0.204"/>
+  <testcase name="Given open Calendar Widget page​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="3.451"/>
+  <testcase name="And store values of: apiKey,keyword,zipCode,radius​​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.545"/>
+  <testcase name="And change values for: apiKey,keyword,zipCode,radius​​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="2.909"/>
+  <testcase name="When click reset button on Calendar Widget Page" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.698"/>
+  <testcase name="And click on &quot;Get code&quot; button" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.713"/>
+  <testcase name="Then the pop-up Embedded Code is opened​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.36"/>
+  <testcase name="And embedded html code contains stored values of: apiKey,keyword,zipCode,radius​" classname="bla.tm.definitions.site.widgets.CalendarWidgetDefinition" time="0.464"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| Check RESET button functionality on Embedded Code Pop-up window" classname="Scenario: |/products-and-docs/widgets/calendar/| Check RESET button functionality on Embedded Code Pop-up window" time="0.487"/>
+  <testcase name="Given open Calendar Widget page​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="2.796"/>
+  <testcase name="When I click on the &apos;Get your own&apos; link to get api key" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.715"/>
+  <testcase name="Then The page is opened with url https://developer-acct.ticketmaster.com" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.783"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check links" classname="Scenario: |/products-and-docs/widgets/calendar/| TECHNICAL TAB - Check links" time="0.804"/>
+  <testcase name="Given open Calendar Widget page​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CalendarDefinition" time="2.567"/>
+  <testcase name="And enter custom ApiKey invalidApiKey123" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.877"/>
+  <testcase name="Then the event message is shown &quot;No results were found&quot;" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.559"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/calendar/| Event message - Check event message for invalid API Key" classname="Scenario: |/products-and-docs/widgets/calendar/| Event message - Check event message for invalid API Key" time="1.582"/>
+  <testcase name="CalendarWidget.story" classname="CalendarWidget.story" time="1.645"/>
+  <testcase name="Given open Countdown Widget page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="3.409"/>
+  <testcase name="Then the required fields are not empty on the Countdown Widget page" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.294"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check that required fields are not empty" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check that required fields are not empty" time="0.337"/>
+  <testcase name="Given open Countdown Widget page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="3.394"/>
+  <testcase name="And store ApiKey and EventId on Countdown Widget page" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.261"/>
+  <testcase name="When click on &quot;Get code&quot; button​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.827"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.352"/>
+  <testcase name="And embedded html code contains stored ApiKey and EventId" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.171"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Verification of default embed code" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Verification of default embed code" time="0.195"/>
+  <testcase name="Given open Countdown Widget page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.33"/>
+  <testcase name="And change value for ApiKey and EventId on Countdown Widget page" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.659"/>
+  <testcase name="And store ApiKey and EventId on Countdown Widget page​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.081"/>
+  <testcase name="When click on &quot;Get code&quot; button​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.686"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.499"/>
+  <testcase name="And embedded html code contains stored ApiKey and EventId​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.12"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check that embed code functionality works properly" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check that embed code functionality works properly" time="0.147"/>
+  <testcase name="Given open Countdown Widget page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.623"/>
+  <testcase name="And store ApiKey and EventId on Countdown Widget page​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.195"/>
+  <testcase name="And change value for ApiKey and EventId on Countdown Widget page​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.448"/>
+  <testcase name="When submit form" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.074"/>
+  <testcase name="And click reset button" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.721"/>
+  <testcase name="Then the ApiKey and EventId fields have stored values" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.066"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check RESET button functionality" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check RESET button functionality" time="0.102"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="3.241"/>
+  <testcase name="And store ApiKey and EventId on Countdown Widget page​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.222"/>
+  <testcase name="And change value for ApiKey and EventId on Countdown Widget page​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.493"/>
+  <testcase name="When submit form​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.199"/>
+  <testcase name="And click reset button​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.762"/>
+  <testcase name="And click on &quot;Get code&quot; button​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.677"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.367"/>
+  <testcase name="And embedded html code contains stored ApiKey and EventId​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.123"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check RESET button functionality on Embedded Code Pop-up window" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check RESET button functionality on Embedded Code Pop-up window" time="0.156"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.184"/>
+  <testcase name="When User is logged to site |Countdown Widget|​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="7.938"/>
+  <testcase name="And get eventId by keyword ADELE" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.302"/>
+  <testcase name="And set first eventId from list" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.705"/>
+  <testcase name="Then the event poster contains ADELE" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.293"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Get new EventId" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Get new EventId" time="0.32"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="3.381"/>
+  <testcase name="When I click on the &apos;Get your own&apos; link to get api key​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.313"/>
+  <testcase name="Then The page is opened with url https://developer-acct.ticketmaster.com​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.84"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check links" classname="Scenario: |/products-and-docs/widgets/countdown/| TECHNICAL TAB - Check links" time="0.862"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.874"/>
+  <testcase name="And switch to VISUAL Tab" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.796"/>
+  <testcase name="And set theme to full-width" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.512"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.225"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.346"/>
+  <testcase name="And embedded html code contains stored theme" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.099"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Full-width mode" classname="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Full-width mode" time="0.119"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="2.961"/>
+  <testcase name="And switch to VISUAL Tab​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.951"/>
+  <testcase name="And set theme to poster" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.398"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.767"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.862"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="3.216"/>
+  <testcase name="And embedded html code contains stored layout resolution" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.214"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="2.429"/>
+  <testcase name="And switch to VISUAL Tab​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.837"/>
+  <testcase name="And set theme to poster​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.378"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.738"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.846"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.383"/>
+  <testcase name="And embedded html code contains stored layout resolution​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.186"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="4.369"/>
+  <testcase name="And switch to VISUAL Tab​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.81"/>
+  <testcase name="And set theme to poster​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.416"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.69"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.723"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.407"/>
+  <testcase name="And embedded html code contains stored layout resolution​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.061"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Layout Resolutions" classname="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Layout Resolutions" time="0.126"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="5.185"/>
+  <testcase name="And switch to VISUAL Tab​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.789"/>
+  <testcase name="And set theme to poster​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.375"/>
+  <testcase name="And set layout orientation to &lt;orientation&gt;" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.723"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.75"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.483"/>
+  <testcase name="And embedded html code contains stored layout orientation" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.061"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="3.197"/>
+  <testcase name="And switch to VISUAL Tab​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.901"/>
+  <testcase name="And set theme to poster​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.434"/>
+  <testcase name="And set layout orientation to &lt;orientation&gt;​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.697"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.904"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.308"/>
+  <testcase name="And embedded html code contains stored layout orientation​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.109"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Layout Orientations" classname="Scenario: |/products-and-docs/widgets/countdown/| VISUAL TAB - Check Layout Orientations" time="0.178"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="2.821"/>
+  <testcase name="And enter custom ApiKey {InvalidApiKey123}" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.517"/>
+  <testcase name="When submit form​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.118"/>
+  <testcase name="Then the event message is shown &quot;No results were found&quot;​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.293"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| Event message - Check event message for invalid API Key" classname="Scenario: |/products-and-docs/widgets/countdown/| Event message - Check event message for invalid API Key" time="0.324"/>
+  <testcase name="Given open Countdown Widget page​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_CountdownDefinition" time="2.759"/>
+  <testcase name="And enter custom EventId &quot;invalidEventId123&quot;" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.458"/>
+  <testcase name="When submit form​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.179"/>
+  <testcase name="Then the event message is shown &quot;No results were found&quot;​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.493"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/countdown/| Event message - Check event message for invalid Event ID" classname="Scenario: |/products-and-docs/widgets/countdown/| Event message - Check event message for invalid Event ID" time="0.517"/>
+  <testcase name="CountdownWidget.story" classname="CountdownWidget.story" time="0.585"/>
+  <testcase name="Given open Event Discovery Widget page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.769"/>
+  <testcase name="Then the required fields are not empty and have default values on the Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.353"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that required fields are not empty and have default values" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that required fields are not empty and have default values" time="0.385"/>
+  <testcase name="Given open Event Discovery Widget page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.942"/>
+  <testcase name="And change values for all possible fields on the Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="6.926"/>
+  <testcase name="And store all fields values on the Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.791"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.886"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.35"/>
+  <testcase name="And embedded html code contains stored values on the Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.962"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that embed code functionality works properly" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that embed code functionality works properly" time="1.002"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="6.158"/>
+  <testcase name="When change value of ZipCode &lt;zipCode&gt; on Event Discovery Widget Page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.085"/>
+  <testcase name="Then the Country Field contains appropriate value &lt;countryName&gt; on Event Discovery Widget Page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.547"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.56"/>
+  <testcase name="When change value of ZipCode &lt;zipCode&gt; on Event Discovery Widget Page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.971"/>
+  <testcase name="Then the Country Field contains appropriate value &lt;countryName&gt; on Event Discovery Widget Page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.552"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that Country field is changed accordingly Zip Code" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that Country field is changed accordingly Zip Code" time="1.625"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.852"/>
+  <testcase name="When search events by keyword &lt;keyword&gt; on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.593"/>
+  <testcase name="Then found events contains &lt;keyword&gt; on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.793"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="6.128"/>
+  <testcase name="When search events by keyword &lt;keyword&gt; on Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.517"/>
+  <testcase name="Then found events contains &lt;keyword&gt; on Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.408"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that KEYWORD field functionality works properly" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that KEYWORD field functionality works properly" time="2.471"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.11"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.594"/>
+  <testcase name="Then the number of events equals or less than Event Count &lt;value&gt;" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.041"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.51"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.627"/>
+  <testcase name="Then the number of events equals or less than Event Count &lt;value&gt;​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.646"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that EVENT COUNT works properly" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that EVENT COUNT works properly" time="1.724"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="7.103"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.698"/>
+  <testcase name="Then the number of events equals Event Count &lt;actualValue&gt;" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.102"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.525"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.831"/>
+  <testcase name="Then the number of events equals Event Count &lt;actualValue&gt;​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.084"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.557"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page​​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.648"/>
+  <testcase name="Then the number of events equals Event Count &lt;actualValue&gt;​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.729"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.835"/>
+  <testcase name="When set Event Count &lt;value&gt; on Event Discovery Widget page​​​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.749"/>
+  <testcase name="Then the number of events equals Event Count &lt;actualValue&gt;​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="2.123"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check boundary values of EVENT COUNT" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check boundary values of EVENT COUNT" time="2.188"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="6.725"/>
+  <testcase name="And change value of ZipCode 90015 on Event Discovery Widget Page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.087"/>
+  <testcase name="When set Radius &lt;setValue&gt; on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.488"/>
+  <testcase name="Then Radius value is &lt;actualValue&gt; on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.066"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.401"/>
+  <testcase name="And change value of ZipCode 90015 on Event Discovery Widget Page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.048"/>
+  <testcase name="When set Radius &lt;setValue&gt; on Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.664"/>
+  <testcase name="Then Radius value is &lt;actualValue&gt; on Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.067"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.283"/>
+  <testcase name="And change value of ZipCode 90015 on Event Discovery Widget Page​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.031"/>
+  <testcase name="When set Radius &lt;setValue&gt; on Event Discovery Widget page​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.498"/>
+  <testcase name="Then Radius value is &lt;actualValue&gt; on Event Discovery Widget page​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.106"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.223"/>
+  <testcase name="And change value of ZipCode 90015 on Event Discovery Widget Page​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.079"/>
+  <testcase name="When set Radius &lt;setValue&gt; on Event Discovery Widget page​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.515"/>
+  <testcase name="Then Radius value is &lt;actualValue&gt; on Event Discovery Widget page​​​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.084"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check boundary values of RADIUS" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check boundary values of RADIUS" time="0.149"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.861"/>
+  <testcase name="And store all fields values on the Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.749"/>
+  <testcase name="And change values for all possible fields on the Event Discovery Widget page​" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="7.01"/>
+  <testcase name="When click reset button​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.814"/>
+  <testcase name="Then all fields have been reseted to defaults on the Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="0.718"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that RESET button works properly" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check that RESET button works properly" time="0.743"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.461"/>
+  <testcase name="When I click on the &apos;Get your own&apos; link to get api key​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.376"/>
+  <testcase name="Then The page is opened with url https://developer-acct.ticketmaster.com​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.757"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check links" classname="Scenario: |/products-and-docs/widgets/event-discovery/| TECHNICAL TAB - Check links" time="0.779"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.038"/>
+  <testcase name="And switch to VISUAL Tab​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.973"/>
+  <testcase name="And set theme to poster​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.581"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.719"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.859"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.463"/>
+  <testcase name="And embedded html code contains stored layout resolution​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.296"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.188"/>
+  <testcase name="And switch to VISUAL Tab​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.79"/>
+  <testcase name="And set theme to poster​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.656"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.794"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.904"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.463"/>
+  <testcase name="And embedded html code contains stored layout resolution​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.248"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.265"/>
+  <testcase name="And switch to VISUAL Tab​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.929"/>
+  <testcase name="And set theme to poster​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.48"/>
+  <testcase name="And set layout resolution to &lt;layoutResolution&gt;​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.725"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.941"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.319"/>
+  <testcase name="And embedded html code contains stored layout resolution​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.059"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| VISUAL TAB - Check Layout Resolutions" classname="Scenario: |/products-and-docs/widgets/event-discovery/| VISUAL TAB - Check Layout Resolutions" time="0.123"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="5.913"/>
+  <testcase name="And switch to VISUAL Tab​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.116"/>
+  <testcase name="And set theme to poster​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.495"/>
+  <testcase name="And set layout orientation to &lt;orientation&gt;​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.766"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.779"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.298"/>
+  <testcase name="And embedded html code contains stored layout orientation​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.142"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="4.575"/>
+  <testcase name="And switch to VISUAL Tab​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.962"/>
+  <testcase name="And set theme to poster​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.429"/>
+  <testcase name="And set layout orientation to &lt;orientation&gt;​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.691"/>
+  <testcase name="When click on &quot;Get code&quot; button​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="1.041"/>
+  <testcase name="Then the pop-up Embedded Code is opened​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="2.466"/>
+  <testcase name="And embedded html code contains stored layout orientation​​​" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.121"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| VISUAL TAB - Check Layout Orientations" classname="Scenario: |/products-and-docs/widgets/event-discovery/| VISUAL TAB - Check Layout Orientations" time="0.184"/>
+  <testcase name="Given open Event Discovery Widget page​​​​​​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Widget_EventDiscoveryDefinition" time="2.908"/>
+  <testcase name="When search events by keyword ABRAKADABRA on Event Discovery Widget page" classname="bla.tm.definitions.site.widgets.EventDiscoveryWidgetDefinition" time="1.649"/>
+  <testcase name="Then the event message is shown &quot;Here other options for you.&quot;" classname="bla.tm.definitions.site.widgets.CountdownWidgetDefinition" time="0.734"/>
+  <testcase name="Scenario: |/products-and-docs/widgets/event-discovery/| Event message - Check event message for invalid Keyword" classname="Scenario: |/products-and-docs/widgets/event-discovery/| Event message - Check event message for invalid Keyword" time="0.757"/>
+  <testcase name="EventDiscoveryWidget.story" classname="EventDiscoveryWidget.story" time="0.82"/>
+  <testcase name="Given open Tutorials Widgets page​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="2.969"/>
+  <testcase name="And Feedback widget is not shown" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.56"/>
+  <testcase name="When click Feedback button of Tutorials Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.079"/>
+  <testcase name="Then Feedback widget elements are shown" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.973"/>
+  <testcase name="Scenario: |feedback widget| Check that Feedback widget Elements are shown" classname="Scenario: |feedback widget| Check that Feedback widget Elements are shown" time="0.993"/>
+  <testcase name="Given open Tutorials Widgets page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="2.888"/>
+  <testcase name="When click Feedback button of Tutorials Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.118"/>
+  <testcase name="Then click close button of Feedback widget" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.35"/>
+  <testcase name="And Feedback widget is not shown​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.518"/>
+  <testcase name="Scenario: |feedback widget| Feedback widget Close button" classname="Scenario: |feedback widget| Feedback widget Close button" time="0.536"/>
+  <testcase name="Given open Tutorials Widgets page​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="4.181"/>
+  <testcase name="And click Feedback button of Tutorials Widgets page" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.132"/>
+  <testcase name="When all fields except Name are populated" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.684"/>
+  <testcase name="And click send button of Feedback widget" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.093"/>
+  <testcase name="Then error notification is shown for Feedback widget" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.029"/>
+  <testcase name="Scenario: |feedback widget| Feedback widget error notifications for NAME field" classname="Scenario: |feedback widget| Feedback widget error notifications for NAME field" time="0.048"/>
+  <testcase name="Given open Tutorials Widgets page​​​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="2.508"/>
+  <testcase name="And click Feedback button of Tutorials Widgets page​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.132"/>
+  <testcase name="When all fields except Email are populated" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.823"/>
+  <testcase name="And click send button of Feedback widget​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.093"/>
+  <testcase name="Then error notification is shown for Feedback widget​" classname="bla.tm.definitions.site.products_and_docs.PD_Tutorials_WidgetsDefinition" time="0.029"/>
+  <testcase name="Scenario: |feedback widget| Feedback widget error notifications for Email field" classname="Scenario: |feedback widget| Feedback widget error notifications for Email field" time="0.05"/>
+  <testcase name="FeedbackWidget.story" classname="FeedbackWidget.story" time="0.111"/>
+  <testcase name="Given open Getting Started page​​​​​" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="3.728"/>
+  <testcase name="Then Summary widget is shown for Getting Started page" classname="bla.tm.definitions.site.products_and_docs.PD_GettingStartedDefinition" time="0.108"/>
+  <testcase name="Scenario: |summary widget| TKMDPA-870 Summary widget check for Getting Started page" classname="Scenario: |summary widget| TKMDPA-870 Summary widget check for Getting Started page" time="0.155"/>
+  <testcase name="Given open Home page​​​​​​​​​​​​​​​​​​​​​" classname="bla.tm.definitions.site.HomePageDefinition" time="2.564"/>
+  <testcase name="Then Summary widget is shown for Home page" classname="bla.tm.definitions.site.HomePageDefinition" time="0.212"/>
+  <testcase name="Scenario: |summary widget| TKMDPA-870 Summary widget check for Home page" classname="Scenario: |summary widget| TKMDPA-870 Summary widget check for Home page" time="0.238"/>
+  <testcase name="Given open API Explorer page​​​" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerDefinition" time="4.736"/>
+  <testcase name="Then Summary widget is shown for API Explorer page" classname="bla.tm.definitions.site.products_and_docs.PD_APIExplorerDefinition" time="0.354"/>
+  <testcase name="Scenario: |summary widget| TKMDPA-870 Summary widget check for API Explorer page" classname="Scenario: |summary widget| TKMDPA-870 Summary widget check for API Explorer page" time="0.455"/>
+  <testcase name="SummaryWidget.story" classname="SummaryWidget.story" time="0.528"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0"/>
+</testsuite>

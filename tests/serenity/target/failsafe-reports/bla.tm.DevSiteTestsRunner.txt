@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: bla.tm.DevSiteTestsRunner
+-------------------------------------------------------------------------------
+Tests run: 629, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1,463.786 sec <<< FAILURE! - in bla.tm.DevSiteTestsRunner
+Then check general page elements for Discovery API v1 Page, where DISQUS = true and LeftMenu = true(bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition)  Time elapsed: 0.73 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[PAGE NOT FOUND]> but was:<[DISCOVERY API]>
+	at bla.tm.definitions.site.products_and_docs.PD_DiscoveryAPIv1Definition.checkGeneralPageElements(PD_DiscoveryAPIv1Definition.java:46)
+
+Scenario: |/products-and-docs/apis/discovery/v1/| Verification for general page's elements  Time elapsed: 0.74 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+PD_DiscoveryAPIV1.story  Time elapsed: 0.922 sec  <<< FAILURE!
+java.lang.AssertionError: story failed!
+
